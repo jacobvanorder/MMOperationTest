@@ -18,6 +18,8 @@
 		76EB424217C50FEC000DBB81 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76EB424117C50FEC000DBB81 /* Default-568h@2x.png */; };
 		76EB424517C50FEC000DBB81 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76EB424317C50FEC000DBB81 /* MainStoryboard.storyboard */; };
 		76EB424817C50FEC000DBB81 /* SGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76EB424717C50FEC000DBB81 /* SGViewController.m */; };
+		76EB425017C50FFF000DBB81 /* SGOperationSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 76EB424F17C50FFF000DBB81 /* SGOperationSingleton.m */; };
+		76EB425317C5183C000DBB81 /* SGJuneOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 76EB425217C5183C000DBB81 /* SGJuneOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,10 @@
 		76EB424417C50FEC000DBB81 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		76EB424617C50FEC000DBB81 /* SGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGViewController.h; sourceTree = "<group>"; };
 		76EB424717C50FEC000DBB81 /* SGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGViewController.m; sourceTree = "<group>"; };
+		76EB424E17C50FFF000DBB81 /* SGOperationSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGOperationSingleton.h; sourceTree = "<group>"; };
+		76EB424F17C50FFF000DBB81 /* SGOperationSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGOperationSingleton.m; sourceTree = "<group>"; };
+		76EB425117C5183C000DBB81 /* SGJuneOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGJuneOperation.h; sourceTree = "<group>"; };
+		76EB425217C5183C000DBB81 /* SGJuneOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGJuneOperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +94,10 @@
 				76EB424317C50FEC000DBB81 /* MainStoryboard.storyboard */,
 				76EB424617C50FEC000DBB81 /* SGViewController.h */,
 				76EB424717C50FEC000DBB81 /* SGViewController.m */,
+				76EB424E17C50FFF000DBB81 /* SGOperationSingleton.h */,
+				76EB424F17C50FFF000DBB81 /* SGOperationSingleton.m */,
+				76EB425117C5183C000DBB81 /* SGJuneOperation.h */,
+				76EB425217C5183C000DBB81 /* SGJuneOperation.m */,
 				76EB423217C50FEC000DBB81 /* Supporting Files */,
 			);
 			path = Operational;
@@ -177,6 +187,8 @@
 				76EB423817C50FEC000DBB81 /* main.m in Sources */,
 				76EB423C17C50FEC000DBB81 /* SGAppDelegate.m in Sources */,
 				76EB424817C50FEC000DBB81 /* SGViewController.m in Sources */,
+				76EB425017C50FFF000DBB81 /* SGOperationSingleton.m in Sources */,
+				76EB425317C5183C000DBB81 /* SGJuneOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
